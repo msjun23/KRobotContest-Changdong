@@ -33,10 +33,10 @@
      <widget class="QPushButton" name="pushButton_start">
       <property name="geometry">
        <rect>
-        <x>50</x>
-        <y>50</y>
+        <x>10</x>
+        <y>20</y>
         <width>111</width>
-        <height>71</height>
+        <height>51</height>
        </rect>
       </property>
       <property name="text">
@@ -46,10 +46,10 @@
      <widget class="QPushButton" name="pushButton_stop">
       <property name="geometry">
        <rect>
-        <x>190</x>
-        <y>50</y>
+        <x>130</x>
+        <y>20</y>
         <width>111</width>
-        <height>71</height>
+        <height>51</height>
        </rect>
       </property>
       <property name="text">
@@ -59,14 +59,73 @@
      <widget class="QPushButton" name="pushButton_reset">
       <property name="geometry">
        <rect>
-        <x>330</x>
-        <y>50</y>
+        <x>250</x>
+        <y>20</y>
         <width>111</width>
-        <height>71</height>
+        <height>51</height>
        </rect>
       </property>
       <property name="text">
        <string>Reset</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>0</y>
+        <width>251</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>GroupBox</string>
+      </property>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>20</y>
+         <width>75</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Connect</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>20</y>
+         <width>76</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Port : </string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLCDNumber" name="lcdNumber">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>240</y>
+        <width>271</width>
+        <height>91</height>
+       </rect>
       </property>
      </widget>
     </widget>
