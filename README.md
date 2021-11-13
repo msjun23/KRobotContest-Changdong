@@ -73,7 +73,7 @@
 
 ## 2.3 타이머 프로그램
 ![timer2_1](/image/timer2_1.png)
-> 기본적인 동작은 **1.3 타이머 프로그램**과 동일합니다.
+> 기본적인 동작은 [1.3 타이머 프로그램](https://github.com/msjun23/KRobotContest-Changdong#13-%ED%83%80%EC%9D%B4%EB%A8%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8)과 동일합니다.
 > 1. *Start* 버튼을 누르면 타이머가 시작합니다.
 >
 > 2. 각 팀이 압력판을 터치하면 각 팀의 랩 타임이 표시됩니다.
